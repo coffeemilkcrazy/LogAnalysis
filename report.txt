@@ -1,0 +1,42 @@
+GET /api/users/{user_id}/count_pending_messages
+called 2430 times
+mean of response time: 25.99670781893004ms
+median of response time: 15.0ms
+mode of response time: 11ms
+most dyno responded: web.2 200 times
+
+GET /api/users/{user_id}/get_messages
+called 652 times
+mean of response time: 62.170245398773005ms
+median of response time: 32.0ms
+mode of response time: 23ms
+most dyno responded: web.11 58 times
+
+GET /api/users/{user_id}/get_friends_progress
+called 1117 times
+mean of response time: 111.89704565801253ms
+median of response time: 51.0ms
+mode of response time: 35ms
+most dyno responded: web.5 96 times
+
+GET /api/users/{user_id}/get_friends_score
+called 1533 times
+mean of response time: 228.7651663405088ms
+median of response time: 143.0ms
+mode of response time: 67ms
+most dyno responded: web.7 124 times
+
+POST /api/users/{user_id}
+called 2022 times
+mean of response time: 82.77546983184965ms
+median of response time: 46.0ms
+mode of response time: 23ms
+most dyno responded: web.11 176 times
+
+GET /api/users/{user_id}
+called 0 times
+mean of response time: 0ms
+median of response time: 0ms
+mode of response time: 0ms
+most dyno responded: NaN 0 times
+
